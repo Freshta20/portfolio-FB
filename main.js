@@ -8,5 +8,9 @@ $(document).ready(function () {
     $('.menu-toggler').removeClass('open');
     $('.top-nav').removeClass('open');
   });
-    
+  AOS.init({
+    easing: 'ease',
+    duration: 1800,
+    once: true
+  })
 });
